@@ -213,7 +213,8 @@ app.put('/post/:id', upload.single('file'), async (req, res) => {
 app.delete('/post/:id', async(req, res) => {
     const { id } = req.params;
     const deletePost = await Post.findByIdAndRemove(id.slice(1));
-    if(deletePost) {
+    const deletePostComments = await Comment.deleteMany({post: id.slice(1)});
+    if(deletePost && deletePostComments) {
         if(deletePost.imgUrl !== "bunnydefaultimage.png") {
             fs.unlinkSync(`uploads/${deletePost.imgUrl}`);
         }
@@ -221,7 +222,7 @@ app.delete('/post/:id', async(req, res) => {
     } else {
         res.json(false)
     }
-})
+});
 
 
 
