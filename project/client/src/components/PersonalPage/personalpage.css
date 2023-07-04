@@ -1,0 +1,133 @@
+.personal-page-header {
+    margin: 70px auto;
+    max-width: 1200px;
+    height: 150px;
+    background-color: white;
+    border: 2px solid rgba(141, 139, 139, 0.926);
+    border-radius: 20px;
+    box-shadow: 0px 5px 10px 10px rgb(194, 194, 194);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.personal-page-autor {
+    min-width: 300px;
+    height: 146px;
+    border-right: 1px solid rgba(227, 226, 226, 0.66);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* border: 1px solid gray; */
+    padding-left: 10px;
+    padding-right: 10px;
+    gap: 10px;
+}
+
+
+.personal-page-autor-avatar {
+    width: 130px;
+    height: 130px;
+    border-radius: 50%;
+    border: 2px solid gray;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: -2;
+}
+
+.edit-avatar {
+    width: 130px;
+    height: 130px;
+    border-radius: 50%;
+}
+
+.change-image-avatar {
+    width: 130px;
+    height: 130px;
+    border-radius: 50%;
+    background-color: rgba(177, 173, 173, 0.537);
+    position: absolute;
+    cursor: pointer;
+    opacity: 0;
+}
+
+.edit-avatar-symbol {
+    opacity: 0;
+}
+
+.edit-avatar:hover .edit-avatar-symbol {
+    margin-top: -20px;
+    margin-left: 110px;
+    position: absolute;
+    font-size: 20px;
+    opacity: 1;
+    color: rgb(0, 148, 42);
+}
+
+.personal-page-autor-avatar-img {
+    width: 130px;
+    height: 130px;
+}
+
+.personal-page-autor-info {
+    min-width: 150px;
+    height: 80px;
+    /* border: 1px solid gray; */
+    font-size: 12px;
+    padding-top: 20px;
+}
+
+.personal-page-autor-info p {
+    margin-top: 5px;
+    color: gray;
+}
+
+.personal-page-autor-name {
+    font-size: 20px;
+    text-transform: uppercase;
+}
+
+.personal-page-autor-gender {
+    font-size: 12px;
+    text-align: center;
+    text-transform: capitalize;
+}
+
+.personal-page-settings {
+    padding-top: 5px;
+    width: 40px;
+    height: 100%;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center; 
+}
+
+.personal-page-settings-btn {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    border: 2px solid gray;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.personal-page-edit-symbol {
+    color: gray;
+    font-size: 20px;
+}
+
+.personal-page-settings-btn:hover .personal-page-edit-symbol {
+    color: rgb(3, 164, 3);
+}
+
+.personal-page-settings-btn:hover {
+    box-shadow: 0px 0px 5px 2px gray;
+} 
+
+.personal-page-settings-btn:active {
+    background-color: rgb(144, 144, 144);
+}

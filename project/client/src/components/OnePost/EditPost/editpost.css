@@ -1,0 +1,93 @@
+.edit-post {
+    position: absolute;
+    width: 398px;
+    height: 446px;
+    border: 1px solid rgb(159, 158, 158);
+    border-radius: 22px;
+    z-index: 0;
+    background-color: rgba(195, 195, 191, 0.724);
+}
+
+.edit-content-text {
+    margin-top: 60px;
+    margin-left: calc(50% - 185px);
+    border: 2px solid rgb(255, 255, 255);
+    background-color: rgba(255, 255, 255, 0.773);
+    outline: none;
+    color: gray;
+    border-radius: 6px;
+    padding-left: 6px;
+    width: 360px;
+    height: 30px;
+}
+
+.edit-file {
+    margin-top: 10px;
+    margin-left: calc(50% - 182px);
+    width: 360px;
+    height: 198px;
+    border: 2px solid rgb(255, 255, 255);
+    background-color: rgba(255, 255, 255, 0.262);
+    border-radius: 6px;
+}
+
+.upload-edit-file {
+    position: absolute;
+    width: 360px;
+    height: 198px;
+    background-color: aqua;
+    border-radius: 4px;
+    opacity: 0;
+    cursor: pointer;
+}
+
+.upload-file-label {
+    position: absolute;
+}
+
+.upload-symbol {
+    color: white;
+    /* color: rgb(5, 206, 5); */
+    font-size: 120px;
+    margin-top: 40px;
+    margin-left: 120px;
+}
+
+.upload-symbol-upload {
+    color: rgb(5, 208, 5);
+    /* color: rgb(5, 206, 5); */
+    font-size: 120px;
+    margin-top: 40px;
+    margin-left: 120px;
+}
+
+.upload-file-name {
+    margin-top: 182px;
+    margin-left: 5px;
+    font-size: 10px;
+    color: green;
+}
+
+.add-edit-post-btn {
+    width: 150px;
+    height: 30px;
+    margin-top: 20px;
+    border: 1px solid gray;
+    background-color: gray;
+    border-radius: 10px;
+    margin-left: calc(50% - 75px);
+    cursor: pointer;
+}
+
+.add-edit-symbol {
+    color: white;
+    font-size: 26px;
+}
+
+.add-edit-post-btn:hover {
+    background-color: rgb(168, 168, 168);
+}
+
+.add-edit-post-btn:active {
+    background-color: rgb(154, 154, 154);
+}

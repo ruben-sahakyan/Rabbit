@@ -1,0 +1,76 @@
+.sign-in {
+    margin-top: 20px;
+    margin-left: calc(50% - 275px);
+    width: 550px;
+    height: 270px;
+    border: 2px solid rgb(146, 146, 146);
+    border-radius: 20px;
+    box-shadow: 10px 10px 10px rgba(178, 178, 178, 0.423);
+    background: rgb(161,161,161);
+    background: linear-gradient(35deg, rgba(216,216,216,1) 0%, rgba(217,217,217,0.19091386554621848) 100%);
+}
+  
+.error-text {
+    color: red;
+    text-align: center;
+}
+  
+.signup-btn {
+    width: 300px;
+    height: 35px;
+    border: 1px solid rgb(153, 153, 153);
+    border-radius: 10px;
+    background-color: rgb(199, 199, 199);
+    margin-top: 20px;
+    margin-left: calc(50% - 150px);
+}
+  
+  .signup-btn:hover {
+    background-color: rgb(179, 179, 179);
+}
+  
+.signup-btn:active {
+    background-color: rgb(189, 189, 189);
+}
+  
+.signup-btn-symbol {
+    font-size: 33px;
+    color: gray;
+}
+  
+h1 {
+    color: rgba(215, 215, 215, 0.828);
+    margin-top: 8px;
+    font-size: 50px;
+    text-align: center;
+}
+  
+.input-text {
+    width: 400px;
+    height: 35px;
+    margin-top: 10px;
+    margin-left: calc(50% - 200px);
+    border: 2px solid gray;
+    outline: none;
+    border-radius: 10px;
+    padding-left: 10px;
+    color: rgb(128, 128, 128);
+}
+  
+.empty-value {
+    border: 2px solid red;
+}
+  
+.sign-in-href {
+    color: rgb(129, 129, 129);
+    font-size: 14px;
+    margin-left: 10px;
+    text-align: center;
+    margin-top: 10px;
+}
+  
+  
+.sign-in-href-link {
+    text-decoration: none;
+    color: blue;
+}

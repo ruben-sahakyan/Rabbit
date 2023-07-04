@@ -1,0 +1,39 @@
+.add-comment {
+    margin-top: 5px;
+    margin-bottom: 0px;
+    margin-left: calc(50% - 190px);
+    width: 380px;
+    height: 53px;
+    border: 1px solid rgba(128, 128, 128, 0.336);
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(221, 221, 221);
+  }
+  
+  .add-comment-input {
+    padding-left: 10px;
+    outline: none;
+    width: 290px;
+    height: 34px;
+    border: 1px solid gray;
+    border-radius: 6px 0px 0px 6px;
+    font-size: 15px;
+    color: gray;
+    overflow-wrap: break-word;
+  }
+  
+  .add-comment-btn {
+    width: 68px;
+    height: 34px;
+    border-radius: 0px 6px 6px 0px;
+    border: 1px solid gray;
+    background-color: blue;
+    color: white;
+    cursor: pointer;
+  }
+
+  .add-comment-symbol {
+    font-size: 17px;
+  }

@@ -1,0 +1,84 @@
+.edit-post-modal-window {
+    width: 476px;
+    height: 286px;
+    background-color: rgba(225, 225, 225, 0.712);
+    border: 1px solid gray;
+    border-radius: 0px 0px 10px 10px;
+    position: absolute;
+}
+
+.edit-post-content {
+    padding-left: 10px;
+    color: gray;
+    outline: none;
+    margin-top: 20px;
+    margin-left: calc(50% - 200px);
+    display: block;
+    width: 400px;
+    height: 30px;
+    border: 2px solid rgb(255, 255, 255);
+    border-radius: 10px;
+    background-color: rgba(255, 255, 255, 0.64);
+}
+
+.edit-post-file-section {
+    margin-top: 10px;
+    margin-left: calc(50% - 200px);
+    width: 400px;
+    height: 160px;
+    border: 2px solid white;
+    border-radius: 10px;
+    position: relative;
+}
+
+.edit-post-file-label {
+    position: absolute;
+    width: 396px;
+    height: 156px;
+    border-radius: 10px;
+}
+
+.edit-post-file {
+    width: 396px;
+    height: 156px;
+    border-radius: 10px;
+    cursor: pointer;
+    opacity: 0;
+}
+
+.upload-file-symbol {
+    color: rgb(255, 255, 255);
+    font-size: 100px;
+    margin-top: 20px;
+    margin-left: calc(50% - 50px);
+}
+
+.upload-file-symbol-active {
+    margin-left: calc(50% - 68px);
+    font-size: 136px;
+    color: rgba(0, 254, 0, 0.69);
+}
+
+.edit-upload-file-name {
+    color: rgb(2, 197, 2);
+    font-size: 10px;
+    padding-left: 10px;
+}
+
+.edit-post-btn {
+    width: 150px;
+    height: 30px;
+    margin-top: 10px;
+    margin-left: calc(50% - 75px);
+    border: 2px solid gray;
+    border-radius: 10px;
+    background-color: rgba(255, 255, 255, 0.417);
+    color: gray;
+    cursor: pointer;
+}
+
+.edit-post-btn:hover {
+    background-color: rgba(0, 254, 0, 0.69);
+    color: white;
+    border: 2px solid white;
+}

@@ -1,0 +1,46 @@
+.comment-form {
+    margin-top: 10px;
+    margin-left: calc(50% - 230px);
+    width: 460px;
+    height: 50px;
+    border: 2px solid gray;
+    border-radius: 10px;
+    padding-top: 3px;
+    padding-left: 3px;
+}
+
+.add-comment-text {
+    width: 380px;
+    height: 40px;
+    /* margin-top: 3px;
+    margin-left: 3px; */
+    border-radius: 7px 0px 0px 7px;
+    border: 1px solid gray;
+    background-color: white;
+    outline: none;
+    padding-left: 10px;
+    color: gray;
+    font-size: 26px;
+}
+
+.add-comment-btn {
+    width: 70px;
+    height: 40px;
+    border-radius: 0px 7px 7px 0px;
+    border: 1px solid gray;
+    background-color: rgb(179, 179, 179);
+    cursor: pointer;
+}
+
+.add-comment-btn:hover {
+    background-color: rgb(163, 163, 163);
+}
+
+.add-comment-btn:active {
+    background-color: rgb(153, 153, 153);
+}
+
+.add-comment-btn-symbol {
+    color: white;
+    font-size: 20px;
+}

@@ -1,0 +1,65 @@
+.one-post-header {
+    height: 40px;
+    border-bottom: 1px solid rgba(128, 128, 128, 0.335);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 5px;
+}
+
+.post-autor {
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+}
+
+.post-autor-avatar {
+    width: 30px;
+    height: 30px;
+    border: 2px solid rgb(155, 155, 155);
+    border-radius: 22%;
+    margin-right: 5px;
+    cursor: pointer;
+}
+
+.post-autor-avatar-img {
+    width: 28px;
+    height: 28px;
+    border-radius: 22%;
+}
+
+.post-autor-info {
+    min-width: 100px;
+    height: 35px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.post-autor-name {
+    color: gray;
+    font-size: 13px;
+}
+
+.post-change {
+    width: 60px;
+    height: 30px;
+    margin-right: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.edit-symbol, .delete-symbol {
+    cursor: pointer;
+    color: rgb(138, 138, 138);
+}
+
+.edit-symbol:hover {
+    color: green;
+}
+
+.delete-symbol:hover {
+    color: red;
+}
